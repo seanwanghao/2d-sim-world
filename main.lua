@@ -1424,10 +1424,10 @@ function love.load()
     love.window.setMode(GRID_PIXEL_W + UI_WIDTH, WINDOW_HEIGHT)
     love.math.setRandomSeed(os.time())
 
-    if love.filesystem.getInfo("MSYH.TTC") then
-        font_small  = love.graphics.newFont("MSYH.TTC", 14)
-        font_big    = love.graphics.newFont("MSYH.TTC", 18)
-        font_rules  = love.graphics.newFont("MSYH.TTC", 12)
+    if love.filesystem.getInfo("SourceHanSansCN-Regular.otf") then
+        font_small  = love.graphics.newFont("SourceHanSansCN-Regular.otf", 14)
+        font_big    = love.graphics.newFont("SourceHanSansCN-Regular.otf", 18)
+        font_rules  = love.graphics.newFont("SourceHanSansCN-Regular.otf", 12)
     else
         font_small  = love.graphics.newFont(12)
         font_big    = love.graphics.newFont(16)
@@ -1540,3 +1540,4 @@ function love.draw()
         draw_stats_screen()
     end
 end
+
