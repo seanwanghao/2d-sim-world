@@ -188,6 +188,7 @@ cd your-repo-name
 ```
 ## 示例结构（实际以你的仓库为准）/Example structure (may vary slightly)：
 
+```text
 .
 ├── main.lua        # 主逻辑 / Main simulation logic
 ├── LICENSE         # 开源协议（建议 MIT）
